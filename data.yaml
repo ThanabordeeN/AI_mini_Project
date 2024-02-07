@@ -1,0 +1,14 @@
+train: data/images/train/images
+val: data/images/valid/images
+test: data/images/test/images
+
+nc: 3
+names: ['cat', 'chicken', 'cow', 'dog']
+
+
+roboflow:
+  workspace: aisut
+  project: fruits-zd49w
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aisut/fruits-zd49w/dataset/1
